@@ -1,3 +1,45 @@
-# bitcoin-price-prediction
-Bitcoin price prediction using linear regression
-# Bitcoin Price Prediction 📊
+
+# 📈 پیش‌بینی قیمت بیت‌کوین با یادگیری ماشین
+
+این پروژه با استفاده از داده‌های تاریخی قیمت بیت‌کوین، یک مدل یادگیری ماشین می‌سازد که قادر به پیش‌بینی قیمت نهایی روزانه (Close Price) است.
+
+## 🧠 الگوریتم مورد استفاده
+
+- **Linear Regression** (رگرسیون خطی)
+
+## 🗃️ مراحل انجام پروژه
+
+- دریافت دیتاست از CryptoDataDownload ✅
+- بارگذاری و بررسی اولیه داده‌ها ✅
+- پاک‌سازی داده‌ها و حذف ردیف‌های اضافی ✅
+- استخراج ویژگی‌ها از تاریخ (Year, Month, Day) ✅
+- ساخت مدل یادگیری ماشین ✅
+- محاسبه Mean Squared Error برای ارزیابی عملکرد مدل ✅
+
+> **MSE نهایی مدل:** 52809.81
+
+## 📂 فایل‌های پروژه
+
+- `HitBTC_BTCUSD_d.csv`: داده‌های اصلی قیمت بیت‌کوین (روزانه)
+- `bitcoin_model.ipynb`: کد مدل‌سازی در محیط Google Colab
+- `README.md`: توضیحات پروژه
+
+## 🔜 گام‌های بعدی
+
+- تست مدل با الگوریتم‌های پیشرفته‌تر مثل:
+  - Random Forest
+  - XGBoost
+  - LSTM (شبکه عصبی زمانی)
+- استفاده از تکنیک‌های Feature Engineering پیشرفته‌تر
+- ساخت API برای استفاده عملی از مدل
+
+## 👨‍💻 توسعه‌دهنده
+
+- [نام شما]  
+- دانشجوی علاقه‌مند به داده‌کاوی، یادگیری ماشین و تحلیل بازار رمزارزها
+
+## 🌐 منابع
+
+- [CryptoDataDownload.com](https://www.cryptodatadownload.com/)
+- [Pandas Documentation](https://pandas.pydata.org/)
+- [Scikit-Learn](https://scikit-learn.org/)
